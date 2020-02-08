@@ -1,0 +1,40 @@
+POST https://api.eosn.io/v1/chain/get_account HTTP/1.1
+content-type: application/json
+
+{
+  "account_name": "magicturtle3"
+}
+
+
+POST https://api.eosn.io/v1/chain/get_currency_balance HTTP/1.1
+content-type: application/json
+
+{
+  "code":"eosio.token",
+  "account": "genialwombat"
+}
+
+POST https://api.eosn.io/v1/chain/get_currency_stats HTTP/1.1
+content-type: application/json
+
+{
+  "code":"eosio.token",
+  "symbol":"EOS"
+}
+
+POST https://api.eosn.io/v1/chain/get_abi HTTP/1.1
+content-type: application/json
+
+{
+  "account_name": "magicturtle3"
+}
+
+
+GET https://api.coingecko.com/api/v3/simple/supported_vs_currencies HTTP/1.1
+content-type: application/json
+
+GET https://api.coingecko.com/api/v3/coins/list HTTP/1.1
+content-type: application/json
+
+GET https://api.coingecko.com/api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1
+content-type: application/json

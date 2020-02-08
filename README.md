@@ -66,3 +66,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### this app is a demo that shows data form and EOS account
+- the EOS and USD balances
+- the account name
+- the resource usage (CPU,NET,RAM)
+- the EOS that is staked.
+- this app is responsive and can be deployed as a PWA
+- this app feathers a Colorful Animated BG & a 3d spinning EOS logo well loading the accound info
+- TODO: i would like to add a icon in the header bar that would open a dialog to allow you to change the account (for now this can be done in the src/add.js file)
+- TODO: i would like to display pending refund request data
